@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num1=parseInt(prompt("enter mark of Chemistry"));
+        var num2=parseInt(prompt("enter mark of Physics"));
+        var num3=parseInt(prompt("enter mark of Mathematics"));
+             var totalMarks=parseInt(prompt("Please enter total number of Three subjects"));
+        var sum=num1+num2+num3;
+            var percentile=(sum/totalMarks)*100;
+            document.write( "you have obtained : " + +"\xa0\xa0\xa0\xa0"+ percentile+"% Marks."+"<br>");
+            document.write("Grades :"  +"\xa0\xa0\xa0\xa0\xa0\xa0" + "Remarks :"+"<br>");            
+               if(percentile>=80){
+                   document.write("A-One"  +"\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0" + "Excelent");
+               }else if(percentile>=70){
+                   document.write("A"  +"\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0" + "Good");
+               }else if(percentile>=60){
+                   document.write("B"+"\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0" + "You need to improve");
+               }else {
+                   document.write("Fail" +"\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0" + "Sorry");
+               }
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
